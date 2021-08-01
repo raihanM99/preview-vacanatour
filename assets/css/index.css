@@ -4,5 +4,5 @@ body.body-index {
   background-image: url(../images/bali-cover-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-blend-mode: multiply;
+  background-blend-mode: overlay;
 }
