@@ -69,8 +69,29 @@
   letter-spacing: -.05rem;
 }
 
-.carousel-inner .carousel-item img {
-  opacity: .4;
+.carousel-inner .carousel-item .container {
+  
+}
+
+.carousel-inner .carousel-item:nth-child(1) {
+  background-image: url(../images/explore-bali-carousel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.carousel-inner .carousel-item:nth-child(2) {
+  background-image: url(../images/back2bali-carousel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.carousel-inner .carousel-item:nth-child(3) {
+  background-image: url(../images/lombok-carousel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 
